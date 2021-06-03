@@ -1,4 +1,4 @@
-# By @TroJanzHEX
+By @TroJanzHEX
 import os
 import shutil
 
