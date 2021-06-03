@@ -20,10 +20,10 @@ from importlib import import_module
 from aiogram import executor
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 
-from Beastupcoming import TOKEN, bot, dp
-from Beastupcoming.config import get_bool_key, get_list_key
-from Beastupcoming.modules import ALL_MODULES, LOADED_MODULES, MOD_HELP
-from Beastupcoming.utils.logger import log
+from beastupcoming import TOKEN, bot, dp
+from beastupcoming.config import get_bool_key, get_list_key
+from beastupcoming.modules import ALL_MODULES, LOADED_MODULES, MOD_HELP
+from beastupcoming.utils.logger import log
 
 if get_bool_key("DEBUG_MODE"):
     log.debug("Enabling logging middleware.")
