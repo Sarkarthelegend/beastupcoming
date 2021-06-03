@@ -1,4 +1,4 @@
-from DaisyX.services.mongo import mongodb as db_x
+from beastupcoming.services.mongo import mongodb as db_x
 
 lockurl = db_x["Lockurlp"]
 
