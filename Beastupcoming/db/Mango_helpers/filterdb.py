@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from DaisyX.services.mongo2 import db
+from Beastupcoming.services.mongo2 import db
 
 filtersdb = db.filters
 
