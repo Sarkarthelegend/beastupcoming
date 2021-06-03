@@ -1,4 +1,4 @@
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Beastupcoming (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -20,11 +20,11 @@ from aiogram import types
 from aiogram.dispatcher.handler import SkipHandler
 from sentry_sdk import configure_scope
 
-from DaisyX import BOT_USERNAME, dp
-from DaisyX.config import get_bool_key
-from DaisyX.modules.error import parse_update
-from DaisyX.utils.filters import ALL_FILTERS
-from DaisyX.utils.logger import log
+from Beastupcoming import BOT_USERNAME, dp
+from Beastupcoming.config import get_bool_key
+from Beastupcoming.modules.error import parse_update
+from Beastupcoming.utils.filters import ALL_FILTERS
+from Beastupcoming.utils.logger import log
 
 DEBUG_MODE = get_bool_key("DEBUG_MODE")
 ALLOW_F_COMMANDS = get_bool_key("ALLOW_FORWARDS_COMMANDS")
