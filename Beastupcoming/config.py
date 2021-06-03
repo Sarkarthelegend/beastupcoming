@@ -1,4 +1,4 @@
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Beastupcoming (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -19,7 +19,7 @@ import sys
 import yaml
 from envparse import env
 
-from DaisyX.utils.logger import log
+from Beastupcoming.utils.logger import log
 
 DEFAULTS = {
     "LOAD_MODULES": True,
