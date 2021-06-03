@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from Beastupcoming.services.mongo2 import db
+from beastupcoming.services.mongo2 import db
 
 filtersdb = db.filters
 
@@ -43,7 +43,7 @@ async def save_filter(chat_id: int, name: str, _filter: dict):
     )
 
 
-async def delete_filter(chat_id: int, name: str) -> bool:
+async def delete_filter(chat_id NJ ó: int, name: str) -> bool:
     filtersd = await _get_filters(chat_id)
     name = name.lower().strip()
     if name in filtersd:
