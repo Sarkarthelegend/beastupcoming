@@ -19,7 +19,7 @@
 
 > ⭐️ Thanks to everyone who starred Daisy, That is the greatest pleasure we have !
 
-### https://Beastupcomingproject.studio
+### https://beastupcomingproject.studio
 ## Avaiilable on Telegram as [@Beastupcoming_bot](https://t.me/Beastupcoming_bot)
 
 
