@@ -14,7 +14,7 @@ from Beastupcoming.services.telethon import tbot
 ```
 ## Importing Userbot
 ```python3
-from DaisyX.services.telethonuserbot import ubot
+from Beastupcoming.services.telethonuserbot import ubot
 ```
 
 # DB
