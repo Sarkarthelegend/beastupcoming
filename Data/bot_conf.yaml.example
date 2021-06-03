@@ -1,4 +1,4 @@
-# DaisyXBot example config
+# BeastupcomingBot example config
 
 
 # Basic
@@ -16,7 +16,7 @@ MONGO_URI: "mongodb+srv://dfsdfX:dfsfdX@cluster0.df4j.mongodb.net/myFirstDatabas
 
 MONGO_URI2: ""
 MONGO_PORT: 27017
-MONGO_DB': 'DaisyX'
+MONGO_DB': 'Beastupcoming'
 
 API_PORT': 8080
 
