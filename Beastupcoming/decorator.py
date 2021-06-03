@@ -20,11 +20,11 @@ from aiogram import types
 from aiogram.dispatcher.handler import SkipHandler
 from sentry_sdk import configure_scope
 
-from Beastupcoming import BOT_USERNAME, dp
-from Beastupcoming.config import get_bool_key
-from Beastupcoming.modules.error import parse_update
-from Beastupcoming.utils.filters import ALL_FILTERS
-from Beastupcoming.utils.logger import log
+from beastupcoming import BOT_USERNAME, dp
+from beastupcoming.config import get_bool_key
+from beastupcoming.modules.error import parse_update
+from beastupcoming.utils.filters import ALL_FILTERS
+from beastupcoming.utils.logger import log
 
 DEBUG_MODE = get_bool_key("DEBUG_MODE")
 ALLOW_F_COMMANDS = get_bool_key("ALLOW_FORWARDS_COMMANDS")
