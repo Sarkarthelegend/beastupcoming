@@ -17,8 +17,8 @@ import sys
 
 import redis as redis_lib
 
-from Beastupcoming import log
-from Beastupcoming.config import get_str_key
+from beastupcoming import log
+from beastupcoming.config import get_str_key
 
 # Init Redis
 redis = redis_lib.Redis(
