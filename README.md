@@ -1,45 +1,39 @@
 
-<h1 align="center"><b>❤️ DaisyX 2.0  ❤️</b></h1>
+<h1 align="center"><b>❤️ ɮɛǟֆȶ ʊքƈօʍɨռɢ  ❤️</b></h1>
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
   <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue" /> </a>
-  <a href="https://github.com/TeamDaisyX/DaisyX-v2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
+  <a href="https://github.com/Sarkarthelegend/beastupcoming" alt="Maintenance"> <img src="https://telegra.ph/file/37942a05e94e545552409.jpg" /> </a>
 </p>
 
-<p align="center"><a href="https://t.me/DaisySupport_Official"><img src="https://telegra.ph/file/23448c98735bd81df47e7.jpg" width="400"></a></p>
+<p align="center"><a href="https://github.com/Sarkarthelegend/beastupcoming"><img src="https://telegra.ph/file/37942a05e94e545552409.jpg" width="400"></a></p>
 <p align="center">
-    <a href="https://app.codacy.com/manual/teamdaisyx/daisyx/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/teamdaisyx/daisyx"> <img src="https://img.shields.io/github/repo-size/teamdaisyx/daisyx?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/teamdaisyx/daisyx/commits/inukaasith"> <img src="https://img.shields.io/github/last-commit/teamdaisyx/daisyx?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/teamdaisyx/daisyx/issues"> <img src="https://img.shields.io/github/issues/teamdaisyx/daisyx?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/teamdaisyx/daisyx/network/members"> <img src="https://img.shields.io/github/forks/teamdaisyx/daisyx?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://app.codacy.com/manual/Sarkarthelegend/Beastupcoming/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/Sarkarthelegend/beastupcoming"> <img src="https://img.shields.io/github/repo-size/teamdaisyx/daisyx?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Sarkarthelegend/beastupcoming/commits/inukaasith"> <img src="https://img.shields.io/github/last-commit/teamdaisyx/daisyx?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://telegra.ph/file/37942a05e94e545552409.jpghttps://github.com/Sarkarthelegend/beastupcoming/issues"> <img src="https://img.shields.io/github/issues/teamdaisyx/daisyx?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Sarkarthelegend/beastupcoming/network/members"> <img src="https://img.shields.io/github/forks/teamdaisyx/daisyx?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 > ⭐️ Thanks to everyone who starred Daisy, That is the greatest pleasure we have !
 
-### https://daisyproject.studio
-## Avaiilable on Telegram as [@DaisyXBot](https://t.me/daisyxbot)
+### https://Beastupcomingproject.studio
+## Avaiilable on Telegram as [@Beastupcoming_bot](https://t.me/Beastupcoming_bot)
 
-# 🧙‍♀️ Deploy Guide
-Complete guide on deploying @DaisyXBot's clone on Heroku.
-
-[![Tutorial](https://yt-embed.herokuapp.com/embed?v=yar61k_hEHQ)](https://www.youtube.com/watch?v=yar61k_hEHQ)
-
-☆ Video by [ANJANA MADUSHANKA](https://www.youtube.com/channel/UCApXYZNiMdW6UG48-syX7wQ) ☆
 
 
 # 🏃‍♂️ Easy Deploy 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDaisyX/DaisyX.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sarkarthelegend/Beastupcoming.git)
 
-[Generate String Session](https://replit.com/@SpEcHiDe/GenerateStringSession)  << Select telethon
+[Generate String Session](https://replit.com/@Sarkarthelegend/GenerateStringSession#main.py)  << Select telethon
 
 <a href="https://www.youtube.com/watch?v=yar61k_hEHQ"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
 
 # ❤️ Support
-<a href="https://t.me/DaisySupport_Official"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/DaisyXupdates"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Beastupcoming_support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/Beastupcoming_support"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ### Self-hosting (For Devs) ⚔
 ```sh
@@ -50,9 +44,9 @@ $ cd DaisyX
 $ bash deploy.sh
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
-# Rename ./DaisyX/data/bot_conf.yaml.example to bot_conf.yaml and fill
+# Rename ./Beastupcoming/data/bot_conf.yaml.example to bot_conf.yaml and fill
 # Start Bot 
-$ python(3) -m DaisyX
+$ python(3) -m Beastupcoming
 ```
 
 ### Mandatory Vars 📒
@@ -66,7 +60,7 @@ $ python(3) -m DaisyX
     [-] DATABASE_URL: from elephantsql.com
     [-] OWNER_ID: ur id
     [-] MONGO_PORT: 27017
-    [-] MONGO_DB': 'DaisyX'
+    [-] MONGO_DB': 'Beastupcoming'
     [-] REDIS_URI: from redislabs.com (remove port)
     [-] REDIS_PORT: At the end of uri
     [-] REDIS_PASS: pass
@@ -109,12 +103,12 @@ This repo was just revamped to suit an Anime-centric & comedy loving community. 
 
 All other credits mentioned on top of scripts
 
-Anything missing kindly let us know at [Daisy Support](https://t.me/DaisySupport_Official) or simply submit a pull request on the readme.
+Anything missing kindly let us know at [Daisy Support](@Beastupcoming_support) or simply submit a pull request on the readme.
 
 
 ## Devs & Contributors
 
-#### • LUCIFER_MORNINGSTAR    »»  <a href="https://github.com/lucifeermorningstar" alt="lucifeermorningstar"> <img src="https://img.shields.io/badge/lucifeermorningstar-90302f?logo=github" /></a> (OWNER)
+#### • SARKAR_THE_LEGEND    »»  <a href="https://github.com/Sarkarthelegend" alt="SÀRKÂR_THE_LEGEND"> <img src="https://img.shields.io/badge/Sarkarthelegendr-90302f?logo=github" /></a> (OWNER)
 #### • INUKA ASITH    »»  <a href="https://github.com/InukaAsith" alt="InukaAsith"> <img src="https://img.shields.io/badge/InukaAsith-107D8D?logo=github" /></a> (DEV)
 #### • ROSELOVERX  »»  <a href="https://github.com/Amarnathcdj" alt="RoseLoverX"> <img src="https://img.shields.io/badge/RoseLoverX-82CAFA?logo=github" /></a> (DEV)
 #### • INFOTECHBRO  »»  <a href="https://github.com/infotechbro" alt="infotechbro"> <img src="https://img.shields.io/badge/infotechbro-82CAFA?logo=github" /></a> (DEV)
@@ -129,7 +123,7 @@ Anything missing kindly let us know at [Daisy Support](https://t.me/DaisySupport
 
 > This project exists thanks to these awesome developers and their codes and contributions.
 
-<a href="https://github.com/TeamDaisyX/DaisyX/graphs/contributors"><img src="https://opencollective.com/teamdaisyxdaisy/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/Sarkarthelegend/beastupcoming/graphs/contributors"><img src="https://opencollective.com/teamdaisyxdaisy/contributors.svg?width=890&button=false" /></a>
 
 > And credits goes to all who supported, all who helped and API & environmental equirement package devs and all projects helped in making this project.
 > Special thanks to you for using bot
