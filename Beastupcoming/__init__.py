@@ -1,4 +1,4 @@
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Beastupcoming (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -21,14 +21,14 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.bot.api import TELEGRAM_PRODUCTION, TelegramAPIServer
 from aiogram.contrib.fsm_storage.redis import RedisStorage2
 
-from DaisyX.config import get_bool_key, get_int_key, get_list_key, get_str_key
-from DaisyX.utils.logger import log
-from DaisyX.versions import DAISY_VERSION
+from Beastupcoming.config import get_bool_key, get_int_key, get_list_key, get_str_key
+from Beastupcoming.utils.logger import log
+from Beastupcoming.versions import DAISY_VERSION
 
 log.info("----------------------")
-log.info("|      Daisy X      |")
+log.info("|      Beastupcoming      |")
 log.info("----------------------")
-log.info("Version: " + DAISY_VERSION)
+log.info("Version: " + Beastupcoming_VERSION)
 
 if get_bool_key("DEBUG_MODE") is True:
     DAISY_VERSION += "-debug"
