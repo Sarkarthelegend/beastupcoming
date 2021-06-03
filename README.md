@@ -108,7 +108,7 @@ Anything missing kindly let us know at [Beastupcoming_support](@Beastupcoming_su
 
 ## Devs & Contributors
 
-#### • SARKAR_THE_LEGEND    »»  <a href="https://github.com/Sarkarthelegend" alt="SÀRKÂR_THE_LEGEND"> <img src="https://img.shields.io/badge/Sarkarthelegendr-90302f?logo=github" /></a> (OWNER)
+#### • SARKAR_THE_LEGEND    »»  <a href="https://github.com/Sarkarthelegend" alt="SÀRKÂR_THE_LEGEND"> <img src="https://img.shields.io/badge/Sarkarthelegend-90302f?logo=github" /></a> (OWNER)
 #### • INUKA ASITH    »»  <a href="https://github.com/InukaAsith" alt="InukaAsith"> <img src="https://img.shields.io/badge/InukaAsith-107D8D?logo=github" /></a> (DEV)
 #### • ROSELOVERX  »»  <a href="https://github.com/Amarnathcdj" alt="RoseLoverX"> <img src="https://img.shields.io/badge/RoseLoverX-82CAFA?logo=github" /></a> (DEV)
 #### • INFOTECHBRO  »»  <a href="https://github.com/infotechbro" alt="infotechbro"> <img src="https://img.shields.io/badge/infotechbro-82CAFA?logo=github" /></a> (DEV)
