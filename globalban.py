@@ -16,19 +16,19 @@ from telegram.ext import run_async, CommandHandler, MessageHandler, Filters
 
 from telegram.utils.helpers import mention_html
 
-import senorita.modules.sql.global_bans_sql as sql
+import beastupcoming.modules.sql.global_bans_sql as sql
 
-from senorita import dispatcher, OWNER_ID, DEV_USERS, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS, GBAN_LOGS, STRICT_GBAN, spam_watch
+from beastupcoming import dispatcher, OWNER_ID, DEV_USERS, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS, GBAN_LOGS, STRICT_GBAN, spam_watch
 
-from senorita.modules.helper_funcs.chat_status import user_admin, is_user_admin
+from beastupcoming.modules.helper_funcs.chat_status import user_admin, is_user_admin
 
-from senorita.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from beastupcoming.modules.helper_funcs.extraction import extract_user, extract_user_and_text
 
-from senorita.modules.helper_funcs.filters import CustomFilters
+from beastupcoming.modules.helper_funcs.filters import CustomFilters
 
-from senorita.modules.helper_funcs.misc import send_to_list
+from beastupcoming.modules.helper_funcs.misc import send_to_list
 
-from senorita.modules.sql.users_sql import get_all_chats
+from beastupcoming.modules.sql.users_sql import get_all_chats
 
 GBAN_ENFORCE_GROUP = 6
 
