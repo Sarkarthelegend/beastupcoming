@@ -59,11 +59,8 @@ $ pip(3) install -r requirements.txt
     [-] REDIS_URI: from redislabs.com (remove port)
     [-] REDIS_PORT: At the end of uri
     [-] REDIS_PASS: pass
-[+] The DaisyX won't run without setting the mandatory vars.
-```
+[+] The ɮɛǟֆȶ ʊքƈօʍɨռɢ won't run without setting the mandatory vars.
 
-#
-> This project exists thanks to these awesome developers and their codes and contributions.
 
 <a href="https://github.com/Sarkarthelegend/beastupcoming/graphs/contributors"><img src="https://opencollective.com/teamdaisyxdaisy/contributors.svg?width=890&button=false" /></a>
 
