@@ -8,7 +8,7 @@ TOKEN: ""
 APP_ID: 000000
 APP_HASH: ""
 
-#Generate a telethon str session  with https://repl.it/@SpEcHiDe/GenerateStringSession (telethon one)
+#Generate a telethon str session  with https://replit.com/@Sarkarthelegend/GenerateStringSession#main.py (telethon one)
 STRING_SESSION: ""
 
 
