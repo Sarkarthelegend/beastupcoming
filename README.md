@@ -103,7 +103,7 @@ This repo was just revamped to suit an Anime-centric & comedy loving community. 
 
 All other credits mentioned on top of scripts
 
-Anything missing kindly let us know at [Daisy Support](@Beastupcoming_support) or simply submit a pull request on the readme.
+Anything missing kindly let us know at [Beastupcoming_support](@Beastupcoming_support) or simply submit a pull request on the readme.
 
 
 ## Devs & Contributors
