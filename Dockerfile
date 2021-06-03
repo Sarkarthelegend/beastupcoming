@@ -5,4 +5,4 @@ COPY requirements.txt .
 COPY deploy.sh .
 RUN bash deploy.sh
 COPY . .
-CMD ["python3", "-m", "Beastupcoming"]
+CMD ["python3", "-m", "beastupcoming"]
