@@ -18,7 +18,7 @@ async def hi(client,message):
 
 ### Edit or reply
 ```python3
-from Beastupcoming.function.pluginhelpers import edit_or_reply
+from beastupcoming.function.pluginhelpers import edit_or_reply
 
 async def hi(client,message):
   await edit_or_reply("Hi")
