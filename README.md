@@ -10,8 +10,8 @@ h1 align="center"><b>🦋 ɮɛǟֆȶ ʊքƈօʍɨռɢ🦋️ </b></h1>
 
 <p align="center"><a href="https://t.me/DaisySupport_Official"><img src="https://telegra.ph/file/23448c98735bd81df47e7.jpg" width="400"></a></p>
 <p align="center">
-    <a href="https://app.codacy.com/manual/teamdaisyx/daisyx/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/Sarkarthelegend/beastupcoming"> <img src="https://img.shields.io/github/repo-size/teamdaisyx/daisyx?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://app.codacy.com/manual/Sarkarthelegend/Beastupcoming/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/Sarkarthelegend/beastupcoming"> <img src="https://img.shields.io/github/repo-size/Sarkarthelegend/Beastupcoming?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/teamdaisyx/daisyx/commits/inukaasith"> <img src="https://img.shields.io/github/last-commit/teamdaisyx/daisyx?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/Sarkarthelegend/beastupcoming/issues"> <img src="https://img.shields.io/github/issues/teamdaisyx/daisyx?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/Sarkarthelegend/beastupcoming/network/members"> <img   
@@ -20,7 +20,7 @@ h1 align="center"><b>🦋 ɮɛǟֆȶ ʊքƈօʍɨռɢ🦋️ </b></h1>
 
 > ⭐️ Thanks to everyone who starred ɮɛǟֆȶ ʊքƈօʍɨռɢ, That is the greatest pleasure we have !
 
-## Avaiilable on Telegram as [1@Beastupcoming_bot](https://t.me/Beastupcoming_bot)
+## Avaiilable on Telegram as [@Beastupcoming_bot](https://t.me/Beastupcoming_bot)
 
 # 🧙‍♀️ Deploy Guide
 Complete guide on deploying @Beastupcoming_bot's clone on Heroku.
@@ -55,67 +55,14 @@ $ pip(3) install -r requirements.txt
     [-] DATABASE_URL: from elephantsql.com
     [-] OWNER_ID: ur id
     [-] MONGO_PORT: 27017
-    [-] MONGO_DB': 'DaisyX'
+    [-] MONGO_DB': 'ɮɛǟֆȶ ʊքƈօʍɨռɢ'
     [-] REDIS_URI: from redislabs.com (remove port)
     [-] REDIS_PORT: At the end of uri
     [-] REDIS_PASS: pass
 [+] The DaisyX won't run without setting the mandatory vars.
 ```
 
-# 😍 Credits
-
- - [Hitsuki](https://github.com/HitsukiNetwork/Hitsukix)
- - [SophieBot](https://gitlab.com/SophieBot/sophie)
- - [Alita_Robot](https://github.com/Divkix/Alita_Robot/)
- - [FridayUserbot](https://github.com/DevsExpo/FridayUserbot)
- - [MissJuliaRobot](https://github.com/MissJuliaRobot/MissJuliaRobot)
- - [DaisyX](https://github.com/teamdaisyx/daisy-x)
- - [ADV-Auto-Filter-Bot-V2](https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2)
- - [Image-Editor](https://github.com/TroJanzHEX/Image-Editor/)
- - [Utah](https://github.com/minatouzuki/utah).
- - [WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
- - [LEGENDX](https://github.com/LEGENDXOP/LEGEND-X)
-
-## Special Credits
-- [SophieBot Devs](https://gitlab.com/SophieBot)
-- [TroJanzHEX](https://github.com/TroJanzHEX)
-- [infotechbro](https://github.com/infotechbro/)
-- [AlbertEinsteinTG](https://github.com/AlbertEinsteinTG)
-- [Amarnath c](https://github.com/Amarnathcdj)
-- [Thehamkercat](https://github.com/thehamkercat)
-- [StarkGang](https://github.com/StarkGang)
-- [chsaiujwal](https://github.com/chsaiujwal)
-- [LEGENDX](https://github.com/LEGENDXOP) 
-- [MissJuliaRobot](https://github.com/MissJuliaRobot) 
-- [HitsukiNetwork](https://github.com/HitsukiNetwork) 
-- [AnimeKaizoku](https://github.com/AnimeKaizoku) 
-- [Dan](https://github.com/delivrance) 
-- [Lonami](https://github.com/Lonami) 
-- [AioGram Project group](https://github.com/aiogram) 
-
-The bot is based on the original work done by [SophieBot](https://gitlab.com/SophieBot/sophie) and many other projects
-This repo was just revamped to suit an Anime-centric & comedy loving community. All original credits go to SophieBot and their dedication, Without his efforts, this fork would not have been possible!
-
-All other credits mentioned on top of scripts
-
-Anything missing kindly let us know at [Daisy Support](https://t.me/DaisySupport_Official) or simply submit a pull request on the readme.
-
-
-## Devs & Contributors
-
-#### • SARKAR_THE_LEGEND_COMMUNITY_MIND   »»  <a href="https://github.com/Sarkarthelegend" alt="Sarkarthelegend"> <img src="https://img.shields.io/badge/lucifeermorningstar-90302f?logo=github" /></a> (OWNER)
-#### • INUKA ASITH    »»  <a href="https://github.com/InukaAsith" alt="InukaAsith"> <img src="https://img.shields.io/badge/InukaAsith-107D8D?logo=github" /></a> (DEV)
-#### • ROSELOVERX  »»  <a href="https://github.com/Amarnathcdj" alt="RoseLoverX"> <img src="https://img.shields.io/badge/RoseLoverX-82CAFA?logo=github" /></a> (DEV)
-#### • INFOTECHBRO  »»  <a href="https://github.com/infotechbro" alt="infotechbro"> <img src="https://img.shields.io/badge/infotechbro-82CAFA?logo=github" /></a> (DEV)
-#### • ANJANA_MA »»  <a href="https://github.com/Anjana_ma" alt="Anjana"> <img src="https://img.shields.io/badge/Anjana-30302f?logo=github" /></a>
-#### • DARK PRINCE »»  <a href="https://github.com/Mr-Dark-Prince" alt="DarkPrince"> <img src="https://img.shields.io/badge/DarkPrince-95B9C7?logo=github" /></a>
-#### • OFFICIAL_BAWWA    »»  <a href="https://github.com/Official_Bawwa" alt="Official_Bawwa"> <img src="https://img.shields.io/badge/Official_Bawwa-90302f?logo=github" /></a>
-#### • Annihilatorrrr   »»  <a href="https://github.com/annihilatorrrr" alt="annihilatorrrr"> <img src="https://img.shields.io/badge/annihilatorrrr-E9E1E9?logo=github" /></a>
-#### • LEGENDX     »»  <a href="https://github.com/legendXOp" alt="LegendXOp"> <img src="https://img.shields.io/badge/LegendX-92CALA?logo=github" /></a>
-
-
-## All who helped at a glance 
-
+#
 > This project exists thanks to these awesome developers and their codes and contributions.
 
 <a href="https://github.com/Sarkarthelegend/beastupcoming/graphs/contributors"><img src="https://opencollective.com/teamdaisyxdaisy/contributors.svg?width=890&button=false" /></a>
