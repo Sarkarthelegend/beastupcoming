@@ -1,2 +1,2 @@
-DAISYX: python3 -m DaisyX
-ps:scale DAISYX=1
+Beastupcoming: python3 -m Beastupcoming
+ps:scale Beastupcoming=1
