@@ -2,8 +2,8 @@ import sys
 import traceback
 from functools import wraps
 
-from Beastupcoming import SUPPORT_CHAT
-from Beastupcoming.services.pyrogram import pbot
+from beastupcoming import SUPPORT_CHAT
+from beastupcoming.services.pyrogram import pbot
 
 
 def split_limits(text):
