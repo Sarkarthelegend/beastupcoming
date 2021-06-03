@@ -1,4 +1,4 @@
-from Beastupcoming.services.mongo import mongodb as db_x
+from beastupcoming.services.mongo import mongodb as db_x
 
 lydia = db_x["CAHTBOT"]
 
