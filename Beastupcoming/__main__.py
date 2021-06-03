@@ -1,4 +1,4 @@
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Beastupcoming (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -20,10 +20,10 @@ from importlib import import_module
 from aiogram import executor
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 
-from DaisyX import TOKEN, bot, dp
-from DaisyX.config import get_bool_key, get_list_key
-from DaisyX.modules import ALL_MODULES, LOADED_MODULES, MOD_HELP
-from DaisyX.utils.logger import log
+from Beastupcoming import TOKEN, bot, dp
+from Beastupcoming.config import get_bool_key, get_list_key
+from Beastupcoming.modules import ALL_MODULES, LOADED_MODULES, MOD_HELP
+from Beastupcoming.utils.logger import log
 
 if get_bool_key("DEBUG_MODE"):
     log.debug("Enabling logging middleware.")
@@ -59,11 +59,11 @@ else:
 
 loop = asyncio.get_event_loop()
 
-import_module("DaisyX.modules.pm_menu")
+import_module("Beastupcoming.modules.pm_menu")
 # Import misc stuff
-import_module("DaisyX.utils.exit_gracefully")
+import_module("Beastupcoming.utils.exit_gracefully")
 if not get_bool_key("DEBUG_MODE"):
-    import_module("DaisyX.utils.sentry")
+    import_module("Beastupcoming.utils.sentry")
 
 
 async def before_srv_task(loop):
