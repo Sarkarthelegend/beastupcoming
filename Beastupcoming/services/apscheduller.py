@@ -18,8 +18,8 @@ from apscheduler.jobstores.redis import RedisJobStore
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pytz import utc
 
-from Beastupcoming.config import get_str_key
-from Beastupcoming.utils.logger import log
+from beastupcoming.config import get_str_key
+from beastupcoming.utils.logger import log
 
 DEFAULT = "default"
 
