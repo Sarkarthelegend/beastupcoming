@@ -1,8 +1,8 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 Sarkarthelegend
 # Copyright (C) 2020 Inuka Asith
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Beastupcoming (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -27,7 +27,7 @@ MOD_HELP = {}
 
 
 def list_all_modules() -> list:
-    modules_directory = "DaisyX/modules"
+    modules_directory = "Beastupcoming/modules"
 
     all_modules = []
     for module_name in os.listdir(modules_directory):
@@ -43,7 +43,7 @@ def list_all_modules() -> list:
         # One file module type
         if path.endswith(".py"):
             # TODO: removesuffix
-            all_modules.append(module_name.split(".py")[0])
+            all_modules.appen (module_name.split(".py")[0])
 
         # Module directory
         if os.path.isdir(path) and os.path.exists(path + "/__init__.py"):
