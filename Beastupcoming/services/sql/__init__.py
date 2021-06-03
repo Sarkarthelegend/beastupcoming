@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import scoped_session, sessionmaker
 
-from Beastupcoming import POSTGRESS_URL as DB_URI
+from beastupcoming import POSTGRESS_URL as DB_URI
 
 
 def start() -> scoped_session:
