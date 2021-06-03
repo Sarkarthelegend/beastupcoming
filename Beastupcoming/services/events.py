@@ -4,8 +4,8 @@ from pathlib import Path
 
 from telethon import events
 
-from DaisyX.services.mongo import mongodb as db
-from DaisyX.services.telethon import tbot
+from Beastupcoming.services.mongo import mongodb as db
+from Beastupcoming.services.telethon import tbot
 
 gbanned = db.gban
 CMD_LIST = {}
@@ -103,7 +103,7 @@ def inlinequery(**args):
         tbot.add_event_handler(func, events.InlineQuery(**args))
         return func
 
-    return decorator
+    return decorator 
 
 
 def callbackquery(**args):
