@@ -1,4 +1,8 @@
-# This file is part of Beastupcoming (Telegram Bot)
+# Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
+# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2020 Inuka Asith
+
+# This file is part of Daisy (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -13,68 +17,40 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import asyncio
-import logging
+import os
+import sys
 
-import spamwatch
-from aiogram import Bot, Dispatcher, types
-from aiogram.bot.api import TELEGRAM_PRODUCTION, TelegramAPIServer
-from aiogram.contrib.fsm_storage.redis import RedisStorage2
+from DaisyX.utils.logger import log
 
-from Beastupcoming.config import get_bool_key, get_int_key, get_list_key, get_str_key
-from Beastupcoming.utils.logger import log
-from Beastupcoming.versions import DAISY_VERSION
+LOADED_MODULES = []
+MOD_HELP = {}
 
-log.info("----------------------")
-log.info("|      Beastupcoming      |")
-log.info("----------------------")
-log.info("Version: " + Beastupcoming_VERSION)
 
-if get_bool_key("DEBUG_MODE") is True:
-    DAISY_VERSION += "-debug"
-    log.setLevel(logging.DEBUG)
-    log.warn(
-        "! Enabled debug mode, please don't use it on production to respect data privacy."
-    )
+def list_all_modules() -> list:
+    modules_directory = "DaisyX/modules"
 
-TOKEN = get_str_key("TOKEN", required=True)
-OWNER_ID = get_int_key("OWNER_ID", required=True)
-LOGS_CHANNEL_ID = get_int_key("LOGS_CHANNEL_ID", required=True)
+    all_modules = []
+    for module_name in os.listdir(modules_directory):
+        path = modules_directory + "/" + module_name
 
-OPERATORS = list(get_list_key("OPERATORS"))
-OPERATORS.append(OWNER_ID)
-OPERATORS.append(918317361)
+        if "__init__" in path or "__pycache__" in path:
+            continue
 
-# SpamWatch
-spamwatch_api = get_str_key("SW_API", required=True)
-sw = spamwatch.Client(spamwatch_api)
+        if path in all_modules:
+            log.path("Modules with same name can't exists!")
+            sys.exit(5)
 
-# Support for custom BotAPI servers
-if url := get_str_key("BOTAPI_SERVER"):
-    server = TelegramAPIServer.from_base(url)
-else:
-    server = TELEGRAM_PRODUCTION
+        # One file module type
+        if path.endswith(".py"):
+            # TODO: removesuffix
+            all_modules.append(module_name.split(".py")[0])
 
-# AIOGram
-bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML, server=server)
-storage = RedisStorage2(
-    host=get_str_key("REDIS_URI"),
-    port=get_int_key("REDIS_PORT"),
-    password=get_str_key("REDIS_PASS"),
-)
-dp = Dispatcher(bot, storage=storage)
+        # Module directory
+        if os.path.isdir(path) and os.path.exists(path + "/__init__.py"):
+            all_modules.append(module_name)
 
-loop = asyncio.get_event_loop()
-SUPPORT_CHAT = get_str_key("SUPPORT_CHAT", required=True)
-log.debug("Getting bot info...")
-bot_info = loop.run_until_complete(bot.get_me())
-BOT_USERNAME = bot_info.username
-BOT_ID = bot_info.id
-POSTGRESS_URL = get_str_key("DATABASE_URL", required=True)
-TEMP_DOWNLOAD_DIRECTORY = "./"
+    return all_modules
 
-# Sudo Users
-# SUDO_USERS = get_str_key("SUDO_USERS", required=True)
 
-# String Session
-STRING_SESSION = get_str_key("STRING_SESSION", required=True)
+ALL_MODULES = sorted(list_all_modules())
+__all__ = ALL_MODULES + ["ALL_MODULES"]
