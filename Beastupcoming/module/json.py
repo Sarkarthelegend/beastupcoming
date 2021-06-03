@@ -1,7 +1,7 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 Sarkarthelegend
 
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Beastupcoming (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -22,8 +22,8 @@ from telethon import types
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot as borg
+from Beastupcoming.services.events import register
+from Beastupcoming.services.telethon import tbot as borg
 
 
 async def is_register_admin(chat, user):
