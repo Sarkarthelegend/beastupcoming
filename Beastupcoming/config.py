@@ -19,7 +19,7 @@ import sys
 import yaml
 from envparse import env
 
-from Beastupcoming.utils.logger import log
+from beastupcoming.utils.logger import log
 
 DEFAULTS = {
     "LOAD_MODULES": True,
@@ -28,7 +28,7 @@ DEFAULTS = {
     "REDIS_PORT": 6379,
     "REDIS_DB_FSM": 1,
     "MONGODB_URI": "localhost",
-    "MONGO_DB": "DaisyX",
+    "MONGO_DB": "beastupcoming",
     "API_PORT": 8080,
     "JOIN_CONFIRM_DURATION": "30m",
 }
