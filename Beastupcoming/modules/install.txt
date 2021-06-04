@@ -21,9 +21,9 @@ async def install_module(_, message):
         await message.reply_text("INVALID_MIME_TYPE, Reply To A Correct .py File.")
         return
     m = await message.reply_text("**Installing Module**")
-    await message.reply_to_message.download(f"./DaisyX/modules/{document.file_name}")
+    await message.reply_to_message.download(f"./beastupcoming/modules/{document.file_name}")
     await m.edit("**Restarting**")
     os.execvp(
         f"python{str(pyver.split(' ')[0])[:3]}",
-        [f"python{str(pyver.split(' ')[0])[:3]}", "-m", "DaisyX"],
+        [f"python{str(pyver.split(' ')[0])[:3]}", "-m", "beastupcoming"],
     )
