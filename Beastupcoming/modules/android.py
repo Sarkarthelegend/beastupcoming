@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 Sarkarthelegend
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -24,8 +24,8 @@ import rapidjson as json
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from bs4 import BeautifulSoup
 
-from DaisyX import decorator
-from DaisyX.decorator import register
+from beastupcoming import decorator
+from beastupcoming.decorator import register
 
 from .utils.android import GetDevice
 from .utils.disable import disableable_dec
