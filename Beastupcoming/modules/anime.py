@@ -1,9 +1,9 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
 # Copyright (C) 2021 HitaloSama.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 Sarkarthelegend
 # Copyright (C) 2020 Inuka Asith
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of beastupcoming (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -26,8 +26,8 @@ import requests
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters
 
-from DaisyX.decorator import register
-from DaisyX.services.pyrogram import pbot
+from beastupcoming.decorator import register
+from beastupcoming.services.pyrogram import pbot
 
 from .utils.anime import (
     airing_query,
