@@ -21,8 +21,8 @@ import os
 
 from pyrogram import filters
 
-from DaisyX.function.pluginhelpers import member_permissions
-from DaisyX.services.pyrogram import pbot as app
+from beastupcoming.function.pluginhelpers import member_permissions
+from beastupcoming.services.pyrogram import pbot as app
 
 
 @app.on_message(filters.command("setgrouptitle") & ~filters.private)
