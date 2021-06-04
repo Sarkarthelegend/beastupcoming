@@ -1,6 +1,6 @@
-# Copyright (C) 2021 AlainX &TeamDaisyX
+# Copyright (C) 2021 AlainX & Sarkarthelegend
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of beastupcoming (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -32,8 +32,8 @@ from telethon.tl.types import (
     MessageEntityMentionName,
 )
 
-from DaisyX import OWNER_ID
-from DaisyX.services.telethon import tbot as bot
+from beastupcoming import OWNER_ID
+from beastupcoming.services.telethon import tbot as bot
 
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "**The image is too small**"
